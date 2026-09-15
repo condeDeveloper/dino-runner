@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Dino Runner</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap">
+    <section class="stage">
+      <canvas id="game" width="800" height="240"></canvas>
+      <div id="overlay" class="overlay">
+        <p><strong>Pressione Espaço ou toque para correr</strong></p>
+        <p><kbd>Espaço</kbd> / <kbd>↑</kbd> pula · <kbd>↓</kbd> abaixa · toque na tela pula</p>
+      </div>
+    </section>
+    <p class="hint">O jogo acelera com o tempo. Pássaros voam em três alturas. Segure ↓ para abaixar.</p>
+  </main>
+
+  <script src="js/config.js"></script>
+  <script src="js/sprites.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/obstacles.js"></script>
+  <script src="js/scenery.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/input.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>
